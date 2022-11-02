@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	{% load static%}
+	<head><base href="">
+		<meta charset="utf-8" />
+		<title>InDoor</title>
+		<meta name="description" content="Check out all the features of the Start admin panel. A large number of templates, components and widgets." />
+		<meta name="keywords" content="Start, bootstrap, bootstrap 5, admin themes, free admin themes, bootstrap admin, bootstrap dashboard, html admin theme, html template" />
+		<link rel="canonical" href="Https://preview.keenthemes.com/start" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" href="{%static 'assets/media/logos/Logo.svg' %}"  />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		<link href="{%static 'assets/plugins/global/plugins.bundle.css '%}" rel="stylesheet" type="text/css" />
+		<link href="{%static 'assets/css/style.bundle.css ' %}" rel="stylesheet " type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+	</head>
+		<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_body" data-sidebar="on" class="print-content-only header-fixed header-tablet-and-mobile-fixed toolbar-enabled sidebar-enabled">
+		<!--begin::Main-->
+		<!--begin::Root-->
+		<div class="d-flex flex-column flex-root">
+			<!--begin::Page-->
+			<div class="page d-flex flex-row flex-column-fluid">
+				<!--begin::Wrapper-->
+				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+					<!--begin::Header-->
+					<div id="kt_header" class="header" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{default: '200px', lg: '300px'}">
+						<!--begin::Container-->
+						<div class="container d-flex align-items-stretch justify-content-between">
+							<!--begin::Left-->
+							<div class="d-flex align-items-center">
+								<!--begin::Mega Menu Toggler-->
+								<div class="btn btn-icon btn-accent me-2 me-lg-6" >
+									<!--begin::Svg Icon | path: icons/duotone/Text/Article.svg-->
+									<span class="svg-icon svg-icon-1">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 38 41" fill="none" width="3px" height="3px"  version="1.1">
+											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+
+												<path stroke="#20D489" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m15.944 4.818-10.972 9.48c-1.235 1.06-2.027 3.298-1.758 4.972L5.32 32.868c.38 2.426 2.533 4.39 4.813 4.39h17.734c2.264 0 4.433-1.98 4.813-4.39l2.106-13.598c.253-1.674-.538-3.912-1.758-4.971L22.056 4.835c-1.694-1.47-4.434-1.47-6.112-.017v0Z"/><path stroke="#20D489" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.643 24.566c2.011-2.067 4.703-2.067 6.714 0m3.357-3.622a10.555 10.555 0 0 0-2.787-2.118 8.486 8.486 0 0 0-3.935-.974 8.486 8.486 0 0 0-3.934.974c-.982.512-1.916 1.213-2.787 2.118"/><path stroke="#20D489" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.992 29.042h.016"/>
+
+
+											</g>
+										</svg>
+									</span>
+									<!--end::Svg Icon-->
+								</div>
+								<!--end::Mega Menu Toggler-->
+								<!--begin::Logo-->
+								<a href="index.html">
+									<img alt="Logo" src="{%static 'assets/media/logos/Logo.svg'%}" class="h-30px" />
+								</a>
+								<!--end::Logo-->
+							</div>
+							<!--end::Left-->
+							<!--begin::Right-->
+							<div class="d-flex align-items-center">
+								<!--begin::Search-->
+								<button class="btn btn-icon btn-sm btn-active-bg-accent ms-1 ms-lg-6" data-bs-toggle="modal" data-bs-target="#kt_header_search_modal" id="kt_header_search_toggle">
+									<!--begin::Svg Icon | path: icons/duotone/General/Search.svg-->
+									<span class="svg-icon svg-icon-1 svg-icon-dark">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+												<rect x="0" y="0" width="24" height="24" />
+												<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+												<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
+											</g>
+										</svg>
+									</span>
+									<!--end::Svg Icon-->
+								</button>
+								<!--end::Search-->
+
+								<!--begin::User-->
+								<div class="ms-1 ms-lg-6">
+									<!--begin::Toggle-->
+									<div class="btn btn-icon btn-sm btn-active-bg-accent" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" id="kt_header_user_menu_toggle">
+										<!--begin::Svg Icon | path: icons/duotone/General/User.svg-->
+										<span class="svg-icon svg-icon-1 svg-icon-dark">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+													<polygon points="0 0 24 0 24 24 0 24" />
+													<path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+													<path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="#000000" fill-rule="nonzero" />
+												</g>
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+									<!--begin::Menu-->
+									<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold w-300px" data-kt-menu="true">
+										<div class="menu-content fw-bold d-flex align-items-center bgi-no-repeat bgi-position-y-top rounded-top" style="background-image:url('{%static 'assets/media//misc/dropdown-header-bg.jpg'%}')">
+											<div class="symbol symbol-45px mx-5 py-5">
+												<span class="symbol-label bg-primary align-items-end">
+													<img alt="Logo" src="{%static 'assets/media/svg/avatars/001-boy.svg' %}" class="mh-35px" />
+												</span>
+											</div>
+											<div class="">
+												<span class="text-white fw-bolder fs-4">Hello, Krittanai</span>
+												<span class="text-white fw-bold fs-7 d-block">Admin</span>
+											</div>
+										</div>
+										<!--begin::Row-->
+										<div class="row row-cols-2 g-0">
+											<a href="profile" class="border-bottom border-end text-center py-10 btn btn-active-color-primary rounded-0">
+												<!--begin::Svg Icon | path: icons/duotone/Layout/Layout-4-blocks.svg-->
+												<span class="svg-icon svg-icon-3x me-n1">
+													<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+														<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+															<rect x="0" y="0" width="24" height="24" />
+															<rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
+															<path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
+														</g>
+													</svg>
+												</span>
+												<!--end::Svg Icon-->
+												<span class="fw-bolder fs-6 d-block pt-3">My Profile</span>
+											</a>
+
+
+											<a href="#" class="col text-center py-10 btn btn-active-color-primary rounded-0">
+												<!--begin::Svg Icon | path: icons/duotone/Navigation/Sign-out.svg-->
+												<span class="svg-icon svg-icon-3x me-n1">
+													<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+														<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+															<rect x="0" y="0" width="24" height="24" />
+															<path d="M14.0069431,7.00607258 C13.4546584,7.00607258 13.0069431,6.55855153 13.0069431,6.00650634 C13.0069431,5.45446114 13.4546584,5.00694009 14.0069431,5.00694009 L15.0069431,5.00694009 C17.2160821,5.00694009 19.0069431,6.7970243 19.0069431,9.00520507 L19.0069431,15.001735 C19.0069431,17.2099158 17.2160821,19 15.0069431,19 L3.00694311,19 C0.797804106,19 -0.993056895,17.2099158 -0.993056895,15.001735 L-0.993056895,8.99826498 C-0.993056895,6.7900842 0.797804106,5 3.00694311,5 L4.00694793,5 C4.55923268,5 5.00694793,5.44752105 5.00694793,5.99956624 C5.00694793,6.55161144 4.55923268,6.99913249 4.00694793,6.99913249 L3.00694311,6.99913249 C1.90237361,6.99913249 1.00694311,7.89417459 1.00694311,8.99826498 L1.00694311,15.001735 C1.00694311,16.1058254 1.90237361,17.0008675 3.00694311,17.0008675 L15.0069431,17.0008675 C16.1115126,17.0008675 17.0069431,16.1058254 17.0069431,15.001735 L17.0069431,9.00520507 C17.0069431,7.90111468 16.1115126,7.00607258 15.0069431,7.00607258 L14.0069431,7.00607258 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.006943, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-9.006943, -12.000000)" />
+															<rect fill="#000000" opacity="0.5" transform="translate(14.000000, 12.000000) rotate(-270.000000) translate(-14.000000, -12.000000)" x="13" y="6" width="2" height="12" rx="1" />
+															<path d="M21.7928932,9.79289322 C22.1834175,9.40236893 22.8165825,9.40236893 23.2071068,9.79289322 C23.5976311,10.1834175 23.5976311,10.8165825 23.2071068,11.2071068 L20.2071068,14.2071068 C19.8165825,14.5976311 19.1834175,14.5976311 18.7928932,14.2071068 L15.7928932,11.2071068 C15.4023689,10.8165825 15.4023689,10.1834175 15.7928932,9.79289322 C16.1834175,9.40236893 16.8165825,9.40236893 17.2071068,9.79289322 L19.5,12.0857864 L21.7928932,9.79289322 Z" fill="#000000" fill-rule="nonzero" transform="translate(19.500000, 12.000000) rotate(-90.000000) translate(-19.500000, -12.000000)" />
+														</g>
+													</svg>
+												</span>
+												<!--end::Svg Icon-->
+												<span class="fw-bolder fs-6 d-block pt-3">Sign Out</span>
+											</a>
+										</div>
+										<!--end::Row-->
+									</div>
+									<!--end::Menu-->
+								</div>
+
+
+							</div>
+							<!--end::Right-->
+						</div>
+						<!--end::Container-->
+					</div>
+					<!--end::Header-->
+					<!--begin::Main-->
+					<div class="d-flex flex-column flex-column-fluid">
+						<!--begin::toolbar-->
+						<div class="toolbar" id="kt_toolbar">
+							<div class="container d-flex flex-stack flex-wrap flex-sm-nowrap">
+								<!--begin::Info-->
+								<div class="d-flex flex-column align-items-start justify-content-center flex-wrap me-1">
+									<!--begin::Title-->
+									<h3 class="text-dark fw-bolder my-1">จอแสดงผล</h3>
+									<!--end::Title-->
+									<!--begin::Breadcrumb-->
+									<ul class="breadcrumb breadcrumb-line bg-transparent text-muted fw-bold p-0 my-1 fs-7">
+										<li class="breadcrumb-item">
+											<a href="index.html" class="text-muted text-hover-primary">Home</a>
+										</li>
+
+										<li class="breadcrumb-item text-dark">จอแสดงผล</li>
+									</ul>
+									<!--end::Breadcrumb-->
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="content fs-6 d-flex flex-column-fluid" id="kt_content">
+
+							<div class="container">
+								<div class="card">
+									<div class="card-body p-0">
+
+										<div class="row justify-content-center pt-8 px-8 pt-md-20 px-md-0">
+											<div class="col-md-10">
+
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+						<!--begin::Container-->
+						<div class="container d-flex flex-column flex-md-row flex-stack">
+							<!--begin::Copyright-->
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted fw-bold me-2">UWB</span>
+								<a  target="_blank" class="text-gray-800 text-hover-primary">Ultra Wideband Indoor Positioning</a>
+							</div>
+
+
+						</div>
+						<!--end::Container-->
+					</div>
+					<!--end::Footer-->
+				</div>
+				<!--end::Wrapper-->
+				<!--begin::Sidebar-->
+				<div id="kt_sidebar" class="sidebar bg-info" data-kt-drawer="true" data-kt-drawer-name="sidebar" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'200px', '350px': '300px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_sidebar_toggler">
+					<!--begin::Sidebar Content-->
+					<div class="d-flex flex-column sidebar-body">
+						<!--begin::Sidebar Content-->
+						<div id="kt_sidebar_content" class="py-10 px-2 px-lg-8">
+							<div class="hover-scroll-y me-lg-n5 pe-lg-4" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-offset="0px" data-kt-scroll-wrappers="#kt_sidebar_content">
+								<!--begin::Card-->
+								<div class="card bg-info">
+									<!--begin::Body-->
+									<div class="card-body px-0">
+										<div class="pt-0">
+											<!--begin::Chart-->
+											<div class="d-flex flex-center position-relative bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-center" style="background-image:url('assets/media/svg/illustrations/bg-2.svg')">
+												<div class="position-absolute mb-7">
+													<div class="symbol symbol-circle symbol-100px overflow-hidden d-flex flex-center z-index-1">
+														<span class="symbol-label bg-warning align-items-end">
+															<img alt="Logo" src="{%static 'assets/media/svg/avatars/016-boy-7.svg'%}" class="mh-75px" />
+														</span>
+													</div>
+												</div>
+												<div id="kt_user_chart" style="height: 200px"></div>
+											</div>
+											<!--end::Chart-->
+											<!--begin::Items-->
+											<div class="pt-4">
+												<!--begin::Title-->
+												<div class="text-center pb-12">
+													<!--begin::Username-->
+													<h3 class="fw-bolder text-white fs-2 pb-4">Mr. Krittanai</h3>
+													<!--end::Username-->
+													<!--end::Action-->
+													<span class="fw-bolder fs-6 text-primary px-4 py-2 rounded bg-white bg-opacity-10">Admin</span>
+													<!--begin::Action-->
+												</div>
+												<!--end::Title-->
+												<!--begin::Row-->
+												<div class="row row-cols-2 px-xl-12 sidebar-toolbar">
+													<div class="col p-3">
+														<a href="#" class="btn p-5 w-100 text-start btn-active-primary">
+															<span class="text-white fw-bolder fs-1 d-block pb-1">1</span>
+															<span class="fw-bold">Tag</span>
+														</a>
+													</div>
+													<div class="col p-3">
+														<a href="#" class="btn p-5 w-100 text-start btn-active-primary">
+															<span class="text-white fw-bolder fs-1 d-block pb-1">3</span>
+															<span class="fw-bold">ANCHOR</span>
+														</a>
+													</div>
+													<div class="col p-3">
+														<a href="#" class="btn p-5 w-100 text-start btn-active-primary">
+															<span class="text-white fw-bolder fs-1 d-block pb-1">2</span>
+															<span class="fw-bold">User</span>
+														</a>
+													</div>
+
+												</div>
+												<!--end::Row-->
+											</div>
+											<!--end::Items-->
+										</div>
+									</div>
+									<!--end::Body-->
+								</div>
+
+							</div>
+						</div>
+						<!--end::Sidebar Content-->
+					</div>
+					<!--end::Sidebar Content-->
+				</div>
+				<!--end::Sidebar-->
+			</div>
+			<!--end::Page-->
+		</div>
+
+		<div class="modal bg-white fade" id="kt_header_search_modal" aria-hidden="true">
+			<div class="modal-dialog modal-fullscreen">
+				<div class="modal-content shadow-none">
+					<div class="container w-lg-800px">
+						<div class="modal-header d-flex justify-content-end border-0">
+
+							<div class="btn btn-icon btn-sm btn-light-primary ms-2" data-bs-dismiss="modal">
+
+								<span class="svg-icon svg-icon-1">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+										<g transform="translate(12.000000, 12.000000) rotate(-45.000000) translate(-12.000000, -12.000000) translate(4.000000, 4.000000)" fill="#000000">
+											<rect fill="#000000" x="0" y="7" width="16" height="2" rx="1" />
+											<rect fill="#000000" opacity="0.5" transform="translate(8.000000, 8.000000) rotate(-270.000000) translate(-8.000000, -8.000000)" x="0" y="7" width="16" height="2" rx="1" />
+										</g>
+									</svg>
+								</span>
+								<!--end::Svg Icon-->
+							</div>
+							<!--end::Close-->
+						</div>
+						<div class="modal-body">
+							<!--begin::Search-->
+							<form class="pb-10">
+								<input autofocus="" type="text" class="form-control bg-transparent border-0 fs-4x text-center fw-normal" name="query" placeholder="Search..." />
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<script src="{%static 'assets/plugins/global/plugins.bundle.js '%}"></script>
+		<script src="{%static 'assets/js/scripts.bundle.js '%}"></script>
+		<script src="{%static 'assets/js/custom/widgets.js '%}"></script>
+		<script src="{%static 'assets/js/custom/modals/create-app.js '%}"></script>
+		<script src="{%static 'assets/js/custom/modals/select-location.js '%}"></script>
+		<script src="{%static 'assets/js/custom/modals/users-search.js '%}"></script>
+
+	</body>
+
+</html>

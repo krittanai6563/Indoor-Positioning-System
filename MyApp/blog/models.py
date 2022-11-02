@@ -1,0 +1,9 @@
+from django.db import models
+
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    body = models.TextField()
+# Create your models here.
+
+#python manage.py makemigrations
+#python manage.py migrate
